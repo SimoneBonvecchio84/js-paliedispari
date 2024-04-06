@@ -1,6 +1,22 @@
 
+let word1 = "anna";
 
-let isParolaPalin = parPalindroma();
+let indice = "";
+
+let revers = "";
 
 
-console.log("La parola è palindroma?",isParolaPalin);
+
+
+let risultato = parPalindroma(word1, indice, revers);
+
+console.log("la parola è palindroma? Vero o falso:", risultato)
+
+
+
+
+
+
+
+
+
